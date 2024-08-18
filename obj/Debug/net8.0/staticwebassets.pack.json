@@ -5,104 +5,104 @@
       "PackagePath": "staticwebassets\\KTJewelry.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\Images\\Bracelets.jpeg",
-      "PackagePath": "staticwebassets\\Images\\Bracelets.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\Images\\Designer.jpeg",
-      "PackagePath": "staticwebassets\\Images\\Designer.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\Images\\GoldBracelet1.jpeg",
-      "PackagePath": "staticwebassets\\Images\\GoldBracelet1.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\Images\\GoldBracelet2.jpeg",
-      "PackagePath": "staticwebassets\\Images\\GoldBracelet2.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\Images\\GoldNecklace1.jpeg",
-      "PackagePath": "staticwebassets\\Images\\GoldNecklace1.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\Images\\GoldNecklace2.jpeg",
-      "PackagePath": "staticwebassets\\Images\\GoldNecklace2.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\Images\\GoldNecklace3.jpeg",
-      "PackagePath": "staticwebassets\\Images\\GoldNecklace3.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\Images\\GoldNecklace4.jpeg",
-      "PackagePath": "staticwebassets\\Images\\GoldNecklace4.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\Images\\GoldRing1.jpeg",
-      "PackagePath": "staticwebassets\\Images\\GoldRing1.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\Images\\GoldRing2.jpeg",
-      "PackagePath": "staticwebassets\\Images\\GoldRing2.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\Images\\GoldRing3.jpeg",
-      "PackagePath": "staticwebassets\\Images\\GoldRing3.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\Images\\Necklaces.jpeg",
-      "PackagePath": "staticwebassets\\Images\\Necklaces.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\Images\\Rings.jpeg",
-      "PackagePath": "staticwebassets\\Images\\Rings.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\Images\\SilverBracelet1.jpeg",
-      "PackagePath": "staticwebassets\\Images\\SilverBracelet1.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\Images\\SilverBracelet2.jpeg",
-      "PackagePath": "staticwebassets\\Images\\SilverBracelet2.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\Images\\SilverBracelet3.jpeg",
-      "PackagePath": "staticwebassets\\Images\\SilverBracelet3.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\Images\\SilverBracelet4.jpeg",
-      "PackagePath": "staticwebassets\\Images\\SilverBracelet4.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\Images\\SilverNecklace1.jpeg",
-      "PackagePath": "staticwebassets\\Images\\SilverNecklace1.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\Images\\SilverNecklace2.jpeg",
-      "PackagePath": "staticwebassets\\Images\\SilverNecklace2.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\Images\\SilverRing1.jpeg",
-      "PackagePath": "staticwebassets\\Images\\SilverRing1.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\Images\\SilverRing2.jpeg",
-      "PackagePath": "staticwebassets\\Images\\SilverRing2.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\Images\\SilverRing3.jpeg",
-      "PackagePath": "staticwebassets\\Images\\SilverRing3.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\Images\\ring.png",
-      "PackagePath": "staticwebassets\\Images\\ring.png"
-    },
-    {
       "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\Bracelets.jpeg",
+      "PackagePath": "staticwebassets\\images\\Bracelets.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\Designer.jpeg",
+      "PackagePath": "staticwebassets\\images\\Designer.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\GoldBracelet1.jpeg",
+      "PackagePath": "staticwebassets\\images\\GoldBracelet1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\GoldBracelet2.jpeg",
+      "PackagePath": "staticwebassets\\images\\GoldBracelet2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\GoldNecklace1.jpeg",
+      "PackagePath": "staticwebassets\\images\\GoldNecklace1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\GoldNecklace2.jpeg",
+      "PackagePath": "staticwebassets\\images\\GoldNecklace2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\GoldNecklace3.jpeg",
+      "PackagePath": "staticwebassets\\images\\GoldNecklace3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\GoldNecklace4.jpeg",
+      "PackagePath": "staticwebassets\\images\\GoldNecklace4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\GoldRing1.jpeg",
+      "PackagePath": "staticwebassets\\images\\GoldRing1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\GoldRing2.jpeg",
+      "PackagePath": "staticwebassets\\images\\GoldRing2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\GoldRing3.jpeg",
+      "PackagePath": "staticwebassets\\images\\GoldRing3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\Necklaces.jpeg",
+      "PackagePath": "staticwebassets\\images\\Necklaces.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\Rings.jpeg",
+      "PackagePath": "staticwebassets\\images\\Rings.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\SilverBracelet1.jpeg",
+      "PackagePath": "staticwebassets\\images\\SilverBracelet1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\SilverBracelet2.jpeg",
+      "PackagePath": "staticwebassets\\images\\SilverBracelet2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\SilverBracelet3.jpeg",
+      "PackagePath": "staticwebassets\\images\\SilverBracelet3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\SilverBracelet4.jpeg",
+      "PackagePath": "staticwebassets\\images\\SilverBracelet4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\SilverNecklace1.jpeg",
+      "PackagePath": "staticwebassets\\images\\SilverNecklace1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\SilverNecklace2.jpeg",
+      "PackagePath": "staticwebassets\\images\\SilverNecklace2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\SilverRing1.jpeg",
+      "PackagePath": "staticwebassets\\images\\SilverRing1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\SilverRing2.jpeg",
+      "PackagePath": "staticwebassets\\images\\SilverRing2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\SilverRing3.jpeg",
+      "PackagePath": "staticwebassets\\images\\SilverRing3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\ring.png",
+      "PackagePath": "staticwebassets\\images\\ring.png"
     },
     {
       "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\js\\site.js",

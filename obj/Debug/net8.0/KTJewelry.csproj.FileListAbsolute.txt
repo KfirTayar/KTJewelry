@@ -263,3 +263,4 @@ C:\Users\Kfirt\source\repos\KTJewelry\obj\Debug\net8.0\refint\KTJewelry.dll
 C:\Users\Kfirt\source\repos\KTJewelry\obj\Debug\net8.0\KTJewelry.pdb
 C:\Users\Kfirt\source\repos\KTJewelry\obj\Debug\net8.0\KTJewelry.genruntimeconfig.cache
 C:\Users\Kfirt\source\repos\KTJewelry\obj\Debug\net8.0\ref\KTJewelry.dll
+C:\Users\Kfirt\source\repos\KTJewelry\obj\Debug\net8.0\KTJewelry.sourcelink.json

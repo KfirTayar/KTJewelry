@@ -26,9 +26,10 @@ body {
 .hero {
     position: relative; /* Ensure proper stacking of pseudo-elements */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Dark gradient overlay */
-    url('/images/HeroImg.jpeg'); /* Background image */
+    url('/images/Designer.jpeg'); /* Background image */
     background-size: cover;
     background-position: center;
+    border-radius: 120px;
     height: 55vh;
     display: flex;
     justify-content: center;
@@ -38,25 +39,25 @@ body {
 }
 
 .hero-content h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 10px;
 }
 
 .hero-content p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-bottom: 20px;
 }
 
-.btn-primary {
-    background-color: #6c757d;
+.btn-dark {
+    background-color: #4a4b4b;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
-    .btn-primary:hover {
-        background-color: #5a6268;
+    .btn-dark:hover {
+        background-color: #0f0f10;
     }
 
 /* About Section */

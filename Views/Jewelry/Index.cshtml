@@ -6,7 +6,7 @@
     <div class="hero-content">
         <h1>Welcome to K.T. Jewelry</h1>
         <p>Discover our exclusive collection of luxurious rings, necklaces, and bracelets.</p>
-        <a href="@Url.Action("JewelryCollection", "Jewelry")" class="btn btn-primary">Explore Our Collection</a>
+        <a href="@Url.Action("JewelryCollection", "Jewelry")" class="btn btn-dark">Explore Our Collection</a>
     </div>
 </div>
 
@@ -14,20 +14,30 @@
     <p>At K.T. Jewelry, we create timeless pieces crafted with passion and precision. Our collection features only the finest materials, hand-selected for their beauty and durability. Whether you're looking for a stunning ring, a classic necklace, or an elegant bracelet, you'll find something that speaks to your style.</p>
 </div>
 
-<div class="featured-section">
-    <h2>Featured Jewelry</h2>
-    <div class="featured-jewelry">
-        <div class="jewelry-item">
-            <img src="/images/ring.jpg" alt="Gold Ring" />
-            <h3>Gold Ring</h3>
+<div class="featured-jewelry">
+    <a href="@Url.Action("Collection", "Jewelry", new { type = "Ring" })">
+        <div class="image-item">
+            <img src="/images/Rings.jpeg" alt="Rings Collection" />
+            <div class="overlay">
+                <div class="text">Rings</div>
+            </div>
         </div>
-        <div class="jewelry-item">
-            <img src="/images/necklace.jpg" alt="Silver Necklace" />
-            <h3>Silver Necklace</h3>
+    </a>
+    <a href="@Url.Action("Collection", "Jewelry", new { type = "Necklace" })">
+        <div class="image-item">
+            <img src="/images/Necklaces.jpeg" alt="Necklaces Collection" />
+            <div class="overlay">
+                <div class="text">Necklaces</div>
+            </div>
         </div>
-        <div class="jewelry-item">
-            <img src="/images/bracelet.jpg" alt="Diamond Bracelet" />
-            <h3>Diamond Bracelet</h3>
+    </a>
+    <a href="@Url.Action("Collection", "Jewelry", new { type = "Bracelet" })">
+        <div class="image-item">
+            <img src="/images/Bracelets.jpeg" alt="Bracelets Collection" />
+            <div class="overlay">
+                <div class="text">Bracelets</div>
+            </div>
         </div>
-    </div>
+    </a>
 </div>
+
