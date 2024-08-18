@@ -38,6 +38,11 @@ body {
     text-align: center;
 }
 
+    .hero:hover {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), /* Dark gradient overlay */
+        url('/images/Designer.jpeg'); /* Background image */
+    }
+
 .hero-content h1 {
     font-size: 4rem;
     margin-bottom: 10px;
@@ -49,7 +54,7 @@ body {
 }
 
 .btn-dark {
-    background-color: #4a4b4b;
+    background-color: #585a5a;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -91,11 +96,11 @@ body {
 .featured-jewelry {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .jewelry-item {
-    width: 200px;
+    width: 400px;
     text-align: center;
 }
 
@@ -108,3 +113,140 @@ body {
         margin-top: 10px;
         font-size: 1.2rem;
     }
+
+
+/**/
+
+.image-container {
+    display: flex;
+    gap: 30px; /* Space between images */
+    justify-content: center; /* Center images horizontally */
+}
+
+.image-item {
+    position: relative;
+    width: 500px; /* Adjust width as needed */
+    height: 500px; /* Adjust height as needed */
+    overflow: hidden; /* Hide overflow content */
+    border-radius: 8px; /* Optional: Rounded corners */
+}
+
+    .image-item img {
+        width: 100%; /* Full width of container */
+        height: 100%; /* Full height of container */
+        object-fit: cover; /* Ensure images cover the area */
+        transition: transform 0.5s ease; /* Smooth zoom effect */
+    }
+
+    .image-item:hover img {
+        transform: scale(1.2); /* Increase zoom effect on hover */
+    }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    opacity: 0; /* Hide overlay by default */
+    transition: opacity 0.3s ease; /* Smooth transition for hover effect */
+    color: white;
+    font-size: 2rem; /* Adjust font size as needed */
+    font-weight: bold; /* Make text bold */
+    text-align: center; /* Center text */
+}
+
+.image-item:hover .overlay {
+    opacity: 1; /* Show overlay on hover */
+}
+
+/* Jewelry Collection Styles */
+.jewelry-collection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center; 
+    padding: 20px;
+}
+
+.jewelry-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 300px; 
+}
+
+    .jewelry-item:hover {
+        transform: scale(1.05); 
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    }
+
+.jewelry-image {
+    width: 100%; 
+    height: 300px; 
+    object-fit: contain; 
+}
+
+.jewelry-info {
+    padding: 15px;
+}
+
+    .jewelry-info h3 {
+        margin: 0;
+        font-size: 1.25rem;
+        color: #333;
+    }
+
+    .jewelry-info p {
+        margin: 5px 0;
+        font-size: 1rem;
+        color: #555;
+    }
+
+
+/* JewelryCollection page*/
+
+.collection-title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.categories-title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+form {
+    margin-bottom: 20px;
+}
+
+#material-filter {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+    button[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+
+
+.cart-image {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Keep the aspect ratio */
+}

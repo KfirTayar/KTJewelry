@@ -1,0 +1,58 @@
+﻿@model IEnumerable<KTJewelry.Models.Jewelry>
+
+@{
+    ViewData["Title"] = "JewelryCollection";
+}
+
+<h2 class="collection-title">Our Jewelry Collection</h2>
+
+<!-- Filter by Material -->
+<form method="get" asp-action="FilterByMaterial">
+    <label for="material-filter">Filter by Material:</label>
+    <select id="material-filter" name="material">
+        <option value="">All</option>
+        <option value="Gold">Gold</option>
+        <option value="Silver">Silver</option>
+    </select>
+    <button type="submit">Filter</button>
+</form>
+
+<div class="jewelry-collection">
+    @if (Model != null && Model.Any())
+    {
+        @foreach (var item in Model)
+        {
+            <div class="jewelry-item">
+                <img src="@Url.Content(item.ImageUrl)" alt="@item.Name" class="jewelry-image" />
+                <div class="jewelry-info">
+                    <h3>@item.Name</h3>
+                    <p>Material: @item.Material</p>
+                    <p>Price: @item.Price.ToString("C")</p>
+
+                    @if (item is KTJewelry.Models.Ring ring)
+                    {
+                        <p>Size: @ring.Size</p>
+                    }
+                    else if (item is KTJewelry.Models.Necklace necklace)
+                    {
+                        <p>Length: @necklace.Length</p>
+                    }
+                    else if (item is KTJewelry.Models.Bracelet bracelet)
+                    {
+                        <p>Perimeter: @bracelet.Perimeter</p>
+                    }
+
+                    <form method="post" asp-action="AddToCart" asp-controller="Cart">
+                        <input type="hidden" name="id" value="@item.Id" />
+                        <button type="submit" class="btn btn-primary">Add to Cart</button>
+                    </form>
+
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <p>No jewelry items available.</p>
+    }
+</div>
