@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Home - K.T. Jewelry";
+    ViewData["Title"] = "K.T. Jewelry";
 }
 
 <div class="hero">
@@ -15,28 +15,28 @@
 </div>
 
 <h2 class="categories-title">Our Collections</h2>
-<div class="featured-jewelry">
+<div class="category-section">
     <a href="@Url.Action("JewelryCollection", "Jewelry", new { type = "Ring" })">
-        <div class="image-item">
+        <div class="category-item">
             <img src="/images/Rings.jpeg" alt="Rings Collection" />
             <div class="overlay">
-                <div class="text">Rings Collection</div>
+                <div>Rings Collection</div>
             </div>
         </div>
     </a>
     <a href="@Url.Action("JewelryCollection", "Jewelry", new { type = "Necklace" })">
-        <div class="image-item">
+        <div class="category-item">
             <img src="/images/Necklaces.jpeg" alt="Necklaces Collection" />
             <div class="overlay">
-                <div class="text">Necklaces Collection</div>
+                <div>Necklaces Collection</div>
             </div>
         </div>
     </a>
     <a href="@Url.Action("JewelryCollection", "Jewelry", new { type = "Bracelet" })">
-        <div class="image-item">
+        <div class="category-item">
             <img src="/images/Bracelets.jpeg" alt="Bracelets Collection" />
             <div class="overlay">
-                <div class="text">Bracelets Collection</div>
+                <div>Bracelets Collection</div>
             </div>
         </div>
     </a>

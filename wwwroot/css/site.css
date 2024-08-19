@@ -18,15 +18,26 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    font-family: "Mate", serif;
+    font-weight: 400;
+    font-style: italic;
 }
 
-/**/
+.nav-item {
+    font-size: 1.5rem;
+}
+
+.navbar-brand {
+    font-size: 1.6rem;
+}
+
+
+/* Jewelry/Index Page */
 /* Hero Section */
 .hero {
-    position: relative; /* Ensure proper stacking of pseudo-elements */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Dark gradient overlay */
-    url('/images/Designer.jpeg'); /* Background image */
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/Designer.jpeg');
     background-size: cover;
     background-position: center;
     border-radius: 120px;
@@ -39,17 +50,17 @@ body {
 }
 
     .hero:hover {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), /* Dark gradient overlay */
-        url('/images/Designer.jpeg'); /* Background image */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+        url('/images/Designer.jpeg'); 
     }
 
 .hero-content h1 {
-    font-size: 4rem;
+    font-size: 6rem;
     margin-bottom: 10px;
 }
 
 .hero-content p {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     margin-bottom: 20px;
 }
 
@@ -58,11 +69,11 @@ body {
     color: white;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 
     .btn-dark:hover {
-        background-color: #0f0f10;
+        background-color: #303031;
     }
 
 /* About Section */
@@ -71,59 +82,29 @@ body {
     text-align: center;
 }
 
-    .about-section h2 {
-        font-size: 2.5rem;
-        margin-bottom: 20px;
-    }
-
     .about-section p {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         color: #666;
     }
 
-/* Featured Section */
-.featured-section {
-    padding: 40px;
+/* Categories Section */
+.categories-title {
+    margin-bottom: 30px;
     text-align: center;
-    background-color: #f9f9f9;
+    font-size: 4rem;
+    font-family: "Edu TAS Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
-    .featured-section h2 {
-        font-size: 2.5rem;
-        margin-bottom: 20px;
-    }
-
-.featured-jewelry {
+.category-section {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-.jewelry-item {
-    width: 400px;
-    text-align: center;
-}
-
-    .jewelry-item img {
-        width: 100%;
-        border-radius: 10px;
-    }
-
-    .jewelry-item h3 {
-        margin-top: 10px;
-        font-size: 1.2rem;
-    }
-
-
-/**/
-
-.image-container {
-    display: flex;
-    gap: 30px; /* Space between images */
-    justify-content: center; /* Center images horizontally */
-}
-
-.image-item {
+.category-item {
     position: relative;
     width: 500px; /* Adjust width as needed */
     height: 500px; /* Adjust height as needed */
@@ -131,14 +112,14 @@ body {
     border-radius: 8px; /* Optional: Rounded corners */
 }
 
-    .image-item img {
+    .category-item img {
         width: 100%; /* Full width of container */
         height: 100%; /* Full height of container */
         object-fit: cover; /* Ensure images cover the area */
         transition: transform 0.5s ease; /* Smooth zoom effect */
     }
 
-    .image-item:hover img {
+    .category-item:hover img {
         transform: scale(1.2); /* Increase zoom effect on hover */
     }
 
@@ -155,32 +136,48 @@ body {
     opacity: 0; /* Hide overlay by default */
     transition: opacity 0.3s ease; /* Smooth transition for hover effect */
     color: white;
-    font-size: 2rem; /* Adjust font size as needed */
+    font-family: "Edu TAS Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3rem; /* Adjust font size as needed */
     font-weight: bold; /* Make text bold */
     text-align: center; /* Center text */
 }
 
-.image-item:hover .overlay {
+.category-item:hover .overlay {
     opacity: 1; /* Show overlay on hover */
 }
 
-/* Jewelry Collection Styles */
+/* Jewelry/JewelryCollection Page */
+.collection-header {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.collection-title {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 3rem;
+}
+
 .jewelry-collection {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px; 
-    justify-content: center; 
+    gap: 30px;
+    justify-content: center;
     padding: 20px;
 }
 
 .jewelry-item {
     background: #fff;
     border: 1px solid #ddd;
-    border-radius: 8px; 
+    border-radius: 18px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     overflow: hidden;
     transition: transform 0.3s, box-shadow 0.3s;
-    width: 300px; 
+    width: 350px; 
 }
 
     .jewelry-item:hover {
@@ -190,17 +187,18 @@ body {
 
 .jewelry-image {
     width: 100%; 
-    height: 300px; 
-    object-fit: contain; 
+    height: 350px; 
+    object-fit:contain; 
 }
 
 .jewelry-info {
-    padding: 15px;
+    padding: 10px;
+    text-align: center;
 }
 
     .jewelry-info h3 {
         margin: 0;
-        font-size: 1.25rem;
+        font-size: 1.7rem;
         color: #333;
     }
 
@@ -211,19 +209,14 @@ body {
     }
 
 
-/* JewelryCollection page*/
 
-.collection-title {
-    margin-bottom: 30px;
-    text-align: center;
+/* Cart/Main Page */
+.cart-image {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Keep the aspect ratio */
 }
 
-.categories-title {
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-
+/* From Style */
 form {
     margin-bottom: 20px;
 }
@@ -246,7 +239,59 @@ button[type="submit"] {
     }
 
 
-.cart-image {
-    width: 150px; /* Adjust the width as needed */
-    height: auto; /* Keep the aspect ratio */
+/* Filter bar style */
+
+.filter-sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 170px;
+    height: 100%;
+    background-color: #f8ddf6;
+    transition: right 0.3s ease;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+    padding: 20px;
+    z-index: 1000;
+}
+
+    .filter-sidebar h3 {
+        margin-top: 0;
+    }
+
+#filter-toggle {
+
+    padding: 10px 20px;
+    background-color: #f8ddf6;
+    color: white;
+    border-radius: 40px;
+}
+
+.filter-sidebar.open {
+    right: 0;
+}
+
+#add-to-cart-btn {
+    background-color: #f8ddf6;
+    color: white;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+#filter-button {
+    padding: 10px 20px;
+    background-color: #f1a0ea;
+    color: white;
+    border-radius: 40px;
+}
+
+#filter-submit-button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #ef25de;
+    color: white;
+    border-radius: 40px;
+}
+
+#filter-label {
+    margin-top: 20px;
 }
