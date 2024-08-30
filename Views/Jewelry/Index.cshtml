@@ -6,7 +6,7 @@
     <div class="hero-content">
         <h1>Welcome to K.T. Jewelry</h1>
         <p>Discover our exclusive collection of luxurious rings, necklaces, and bracelets.</p>
-        <a href="@Url.Action("JewelryCollection", "Jewelry")" class="btn btn-dark">Explore Our Collection</a>
+        <a href="@Url.Action("GetCollections", "Jewelry")" class="btn btn-dark">Explore Our Collection</a>
     </div>
 </div>
 
@@ -16,7 +16,7 @@
 
 <h2 class="categories-title">Our Collections</h2>
 <div class="category-section">
-    <a href="@Url.Action("JewelryCollection", "Jewelry", new { type = "Ring" })">
+    <a href="@Url.Action("GetCollectionByType", "Jewelry", new { type = "Ring" })">
         <div class="category-item">
             <img src="/images/Rings.jpeg" alt="Rings Collection" />
             <div class="overlay">
@@ -24,7 +24,7 @@
             </div>
         </div>
     </a>
-    <a href="@Url.Action("JewelryCollection", "Jewelry", new { type = "Necklace" })">
+    <a href="@Url.Action("GetCollectionByType", "Jewelry", new { type = "Necklace" })">
         <div class="category-item">
             <img src="/images/Necklaces.jpeg" alt="Necklaces Collection" />
             <div class="overlay">
@@ -32,7 +32,7 @@
             </div>
         </div>
     </a>
-    <a href="@Url.Action("JewelryCollection", "Jewelry", new { type = "Bracelet" })">
+    <a href="@Url.Action("GetCollectionByType", "Jewelry", new { type = "Bracelet" })">
         <div class="category-item">
             <img src="/images/Bracelets.jpeg" alt="Bracelets Collection" />
             <div class="overlay">

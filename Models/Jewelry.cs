@@ -18,5 +18,6 @@
 
         public abstract string Type { get; }
 
+        public int Quantity { get; set; } = 1;
     }
 }

@@ -9,7 +9,8 @@ namespace KTJewelry.Controllers
         // In-memory cart for demo purposes
         private static List<Jewelry> cart = new List<Jewelry>();
 
-        public IActionResult Main()
+        override
+        public IActionResult Index()
         {
             return View(cart);
         }
@@ -26,7 +27,7 @@ namespace KTJewelry.Controllers
                 cart.Add(item);
             }
 
-            return RedirectToAction("Main");
+            return RedirectToAction("Index");
         }
 
         [HttpPost]
@@ -38,7 +39,20 @@ namespace KTJewelry.Controllers
                 cart.Remove(item);
             }
 
-            return RedirectToAction("Main");
+            return RedirectToAction("Index");
         }
+
+        [HttpPost]
+        public IActionResult UpdateQuantity(int id, int quantity)
+        {
+            var item = cart.FirstOrDefault(j => j.Id == id);
+            if (item != null && quantity > 0)
+            {
+                item.Quantity = quantity;
+            }
+
+            return RedirectToAction("Index");
+        }
+
     }
 }

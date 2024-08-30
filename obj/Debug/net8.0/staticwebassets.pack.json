@@ -17,10 +17,6 @@
       "PackagePath": "staticwebassets\\images\\Bracelets.jpeg"
     },
     {
-      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\Designer.jpeg",
-      "PackagePath": "staticwebassets\\images\\Designer.jpeg"
-    },
-    {
       "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\GoldBracelet1.jpeg",
       "PackagePath": "staticwebassets\\images\\GoldBracelet1.jpeg"
     },
@@ -55,6 +51,10 @@
     {
       "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\GoldRing3.jpeg",
       "PackagePath": "staticwebassets\\images\\GoldRing3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\HeroImg.jpeg",
+      "PackagePath": "staticwebassets\\images\\HeroImg.jpeg"
     },
     {
       "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\Necklaces.jpeg",
@@ -99,10 +99,6 @@
     {
       "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\SilverRing3.jpeg",
       "PackagePath": "staticwebassets\\images\\SilverRing3.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\ring.png",
-      "PackagePath": "staticwebassets\\images\\ring.png"
     },
     {
       "Id": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\js\\site.js",

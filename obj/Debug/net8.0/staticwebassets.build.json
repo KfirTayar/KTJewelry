@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eSHrzIzaFvSyUigr5MJioHnBu7PRemBku52j1phJ8wo=",
+  "Hash": "qUEtGkGTIdb3+yCxsOhxbIxQLL259lyTCnjE9OeilSc=",
   "Source": "KTJewelry",
   "BasePath": "_content/KTJewelry",
   "Mode": "Default",
@@ -148,25 +148,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Bracelets.jpeg"
-    },
-    {
-      "Identity": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\Designer.jpeg",
-      "SourceId": "KTJewelry",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\",
-      "BasePath": "_content/KTJewelry",
-      "RelativePath": "images/Designer.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Designer.jpeg"
     },
     {
       "Identity": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\GoldBracelet1.jpeg",
@@ -340,6 +321,25 @@
       "OriginalItemSpec": "wwwroot\\images\\GoldRing3.jpeg"
     },
     {
+      "Identity": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\HeroImg.jpeg",
+      "SourceId": "KTJewelry",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\",
+      "BasePath": "_content/KTJewelry",
+      "RelativePath": "images/HeroImg.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\HeroImg.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\Necklaces.jpeg",
       "SourceId": "KTJewelry",
       "SourceType": "Discovered",
@@ -357,25 +357,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Necklaces.jpeg"
-    },
-    {
-      "Identity": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\ring.png",
-      "SourceId": "KTJewelry",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\",
-      "BasePath": "_content/KTJewelry",
-      "RelativePath": "images/ring.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\ring.png"
     },
     {
       "Identity": "C:\\Users\\Kfirt\\source\\repos\\KTJewelry\\wwwroot\\images\\Rings.jpeg",
