@@ -21,5 +21,14 @@ The project is built using ASP.NET Core MVC, providing a responsive and interact
 ## Running the Project
 
 1. Clone the repo and navigate to KTJewelry project.
-2.Restore the dependencis: ``` dotnet restore ```.
-3. Run the project and open it in the browser: ``` dotnet run ```.
+2. Restore the dependencis: 
+
+``` 
+dotnet restore 
+``` .
+
+3. Run the project and open it in the browser:
+
+``` 
+dotnet run 
+``` .
