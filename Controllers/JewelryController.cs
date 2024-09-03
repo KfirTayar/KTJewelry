@@ -11,24 +11,24 @@ namespace KTJewelry.Controllers
         {
             return new List<Jewelry>
             {
-                new Ring { Id = 1, Name = "Gold Ring", Material = Ring.MaterialType.Gold, Price = 20.00M, ImageUrl = "/images/GoldRing1.jpeg", Size = "6" },
-                new Necklace { Id = 2, Name = "Silver Necklace", Material = Necklace.MaterialType.Silver, Price = 30.00M, ImageUrl = "/images/SilverNecklace1.jpeg", Length = "12" },
-                new Bracelet { Id = 3, Name = "Gold Bracelet", Material = Bracelet.MaterialType.Gold, Price = 20.00M, ImageUrl = "/images/GoldBracelet1.jpeg", Perimeter = "17" },
-                new Ring { Id = 4, Name = "Silver Ring", Material = Ring.MaterialType.Silver, Price = 199.99M, ImageUrl = "/images/SilverRing1.jpeg", Size = "6" },
-                new Necklace { Id = 5, Name = "Gold Necklace", Material = Necklace.MaterialType.Gold, Price = 20.00M, ImageUrl = "/images/GoldNecklace1.jpeg", Length = "18" },
-                new Bracelet { Id = 6, Name = "Silver Bracelet", Material = Bracelet.MaterialType.Silver, Price = 30.00M, ImageUrl = "/images/SilverBracelet1.jpeg", Perimeter = "16" },
-                new Ring { Id = 7, Name = "Gold Ring", Material = Ring.MaterialType.Gold, Price = 20.00M, ImageUrl = "/images/GoldRing2.jpeg", Size = "8" },
-                new Necklace { Id = 8, Name = "Silver Necklace", Material = Necklace.MaterialType.Silver, Price = 30.00M, ImageUrl = "/images/SilverNecklace2.jpeg", Length = "20" },
-                new Bracelet { Id = 9, Name = "Gold Bracelet", Material = Bracelet.MaterialType.Gold, Price = 20.00M, ImageUrl = "/images/GoldBracelet2.jpeg", Perimeter = "12" },
-                new Ring { Id = 10, Name = "Silver Ring", Material = Ring.MaterialType.Silver, Price = 30.00M, ImageUrl = "/images/SilverRing2.jpeg", Size = "10" },
-                new Necklace { Id = 11, Name = "Gold Necklace", Material = Necklace.MaterialType.Gold, Price = 20.00M, ImageUrl = "/images/GoldNecklace2.jpeg", Length = "17" },
-                new Bracelet { Id = 12, Name = "Silver Bracelet", Material = Bracelet.MaterialType.Silver, Price = 30.00M, ImageUrl = "/images/SilverBracelet2.jpeg", Perimeter = "12" },
-                new Ring { Id = 13, Name = "Gold Ring", Material = Ring.MaterialType.Gold, Price = 30.00M, ImageUrl = "/images/GoldRing3.jpeg", Size = "10" },
-                new Necklace { Id = 14, Name = "Gold Necklace", Material = Necklace.MaterialType.Gold, Price = 20.00M, ImageUrl = "/images/GoldNecklace3.jpeg", Length = "10" },
-                new Bracelet { Id = 15, Name = "Silver Bracelet", Material = Bracelet.MaterialType.Silver, Price = 30.00M, ImageUrl = "/images/SilverBracelet3.jpeg", Perimeter = "12" },
-                new Ring { Id = 16, Name = "Silver Ring", Material = Ring.MaterialType.Silver, Price = 30.00M, ImageUrl = "/images/SilverRing3.jpeg", Size = "8" },
-                new Necklace { Id = 17, Name = "Gold Necklace", Material = Necklace.MaterialType.Gold, Price = 20.00M, ImageUrl = "/images/GoldNecklace4.jpeg", Length = "12" },
-                new Bracelet { Id = 18, Name = "Silver Bracelet", Material = Bracelet.MaterialType.Silver, Price = 30.00M, ImageUrl = "/images/SilverBracelet4.jpeg", Perimeter = "11" }
+                new Ring(1, "Gold Ring", 20.00M, "/images/GoldRing1.jpeg", Jewelry.MaterialType.Gold, "6"),
+                new Necklace(2, "Silver Necklace", 30.00M, "/images/SilverNecklace1.jpeg", Jewelry.MaterialType.Silver, "12"),
+                new Bracelet(3, "Gold Bracelet", 20.00M, "/images/GoldBracelet1.jpeg", Jewelry.MaterialType.Gold, "17"),
+                new Ring(4, "Silver Ring", 50.00M, "/images/SilverRing1.jpeg", Jewelry.MaterialType.Silver, "6"),
+                new Necklace(5, "Gold Necklace", 20.00M, "/images/GoldNecklace1.jpeg", Jewelry.MaterialType.Gold, "18"),
+                new Bracelet(6, "Silver Bracelet", 30.00M, "/images/SilverBracelet1.jpeg", Jewelry.MaterialType.Silver, "16"),
+                new Ring(7, "Gold Ring", 20.00M, "/images/GoldRing2.jpeg", Jewelry.MaterialType.Gold, "8"),
+                new Necklace(8, "Silver Necklace", 30.00M, "/images/SilverNecklace2.jpeg", Jewelry.MaterialType.Silver, "20"),
+                new Bracelet(9, "Gold Bracelet", 20.00M, "/images/GoldBracelet2.jpeg", Jewelry.MaterialType.Gold, "12"),
+                new Ring(10, "Silver Ring", 30.00M, "/images/SilverRing2.jpeg", Jewelry.MaterialType.Silver, "10"),
+                new Necklace(11, "Gold Necklace", 20.00M, "/images/GoldNecklace2.jpeg", Jewelry.MaterialType.Gold, "17"),
+                new Bracelet(12, "Silver Bracelet", 30.00M, "/images/SilverBracelet2.jpeg", Jewelry.MaterialType.Silver, "12"),
+                new Ring(13, "Gold Ring", 30.00M, "/images/GoldRing3.jpeg", Jewelry.MaterialType.Gold, "10"),
+                new Necklace(14, "Gold Necklace", 20.00M, "/images/GoldNecklace3.jpeg", Jewelry.MaterialType.Gold, "10"),
+                new Bracelet(15, "Silver Bracelet", 30.00M, "/images/SilverBracelet3.jpeg", Jewelry.MaterialType.Silver, "12"),
+                new Ring(16, "Silver Ring", 30.00M, "/images/SilverRing3.jpeg", Jewelry.MaterialType.Silver, "8"),
+                new Necklace(17, "Gold Necklace", 20.00M, "/images/GoldNecklace4.jpeg", Jewelry.MaterialType.Gold, "12"),
+                new Bracelet(18, "Silver Bracelet", 30.00M, "/images/SilverBracelet4.jpeg", Jewelry.MaterialType.Silver, "11")
             };
         }
 

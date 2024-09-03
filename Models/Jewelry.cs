@@ -19,5 +19,15 @@
         public abstract string Type { get; }
 
         public int Quantity { get; set; } = 1;
+
+        public Jewelry(int id, string name, decimal price, string imageUrl, MaterialType material) { 
+
+            this.Id = id;
+            this.Name = name;
+            this.Price = price;
+            this.ImageUrl = imageUrl;
+            this.Material = material;
+
+        }
     }
 }
